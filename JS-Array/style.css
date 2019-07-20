@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Tahoma;
+    background-color:#f7f7f7;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-content:center;
+}
+img{
+    height:320px;
+    width:320px;
+}
