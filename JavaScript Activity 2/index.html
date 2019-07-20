@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Exercise 2</title>
+<style>
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    body {
+       padding: 20px;
+      }
+      label {
+        font-size: 20px;
+        font-weight: 700;
+        color: #1c87c9;
+      }
+      input {
+        width: 10%;
+        height: 20px;
+        padding: 4px 10px;
+        border: 1px solid #666;
+        background: #cce6ff;
+        color: #1c87c9;
+        font-size: 16px;
+      }
+      div {
+        font-size: 20px;
+        font-weight: bold;
+        color: #005183;
+      }
+</style>
+</head>
+<body>
+<!-- Product -->
+    <label for="">Product: </label>
+    <input type="text" id="product">
+    <br></br>
+<!-- Price -->
+    <label for="">Price: </label>
+    <input id="price">
+    <br></br>
+<!-- Quantity -->
+    <label for="">Quantity: </label>
+    <input id="quantity">
+    <br></br>
+<!-- Get Total -->
+    <button class="button" onclick="getTotal()">Get Total</button>
+    <br></br>
+<!-- Total and Input cash-->
+    <label for="">Total: </label>
+    <div id="total"></div>
+    <br></br>
+    <label for="">Input Cash: </label>
+    <input type="text" id="inputCash">
+    <br></br>
+<!-- Save -->
+    <button class="button" onclick="save()">Save</button>
+    <br></br>
+<!-- Summary -->
+    <label for="">Summary:</label>
+    <br></br>
+    <label for="">Product: </label>
+    <div id="productTxt"></div>
+    <br></br>
+    <label for="">Price: </label>
+    <div id="priceTxt"></div>
+    <br></br>
+    <label for="">Quantity: </label>
+    <div id="quantityTxt"></div>
+    <br></br>
+    <label for="">Total: </label>
+    <div id="total2"></div>
+    <br></br>
+    <label for="">Cash: </label>
+    <div id="cash"></div>
+    <br></br>
+    <label for="">Change: </label>
+    <div id="change"></div>
+    <br></br>
+
+    <script src="script.js"></script>
+</body>
+</html>
